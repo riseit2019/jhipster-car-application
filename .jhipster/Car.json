@@ -1,0 +1,29 @@
+{
+    "name": "Car",
+    "fields": [
+        {
+            "fieldName": "model",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "document",
+            "otherEntityRelationshipName": "car",
+            "relationshipName": "document",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200226095800",
+    "entityTableName": "car",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
