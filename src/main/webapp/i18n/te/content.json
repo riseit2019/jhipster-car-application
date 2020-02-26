@@ -1,0 +1,23 @@
+{
+  "carDemoApp": {
+    "content": {
+      "home": {
+        "title": "Contents",
+        "createLabel": "కొత్త Content  సృష్టించండి",
+        "createOrEditLabel": "Content సృష్టించండి లేదా సవరించండి",
+        "notFound": "No Contents found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Content సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Content సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Content తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Content {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Content"
+      },
+      "data": "Data",
+      "document": "Document"
+    }
+  }
+}
