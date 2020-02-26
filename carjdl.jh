@@ -1,0 +1,27 @@
+entity Car {
+	model String
+}
+
+entity Document {
+	title String,
+    size Long,
+    mimeType String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Content {
+	data Blob
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH, HINDHI, TELUGU
+}
+
+relationship OneToOne {
+	Document{content} to Content{document(id)}
+}
+
+relationship OneToOne {
+	Car{document} to Document{car(id)}
+}
